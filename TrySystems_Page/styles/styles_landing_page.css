@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: linear-gradient(135deg, #064F24 0%, #026930 100%);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+
+}
+
+.header h1 {
+    font-size: 5em;
+    font-weight: bold;
+}
+
+.header p {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.cta-section {
+    background: #f9f9f9;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.cta-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.cta-section p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+.cta-button {
+    text-decoration: none;
+    background-color: #064F24;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.cta-button:hover {
+    background-color: #0A845B;
+}
+
+.contact-form {
+    background: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.contact-form h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.testimonial-section {
+    background: #f9f9f9;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.testimonial-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.testimonial {
+    margin-bottom: 40px;
+}
+
+.testimonial p {
+    font-size: 1.2em;
+}
+
+.footer {
+    background: #064F24;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+.btn-primary {
+    background-color: #064F24;
+    border-color: #064F24;
+}
+
+.btn-primary:hover {
+    background-color: #0A845B;
+    border-color: #0A845B;
+}
+
+.centralized-title {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #064F24;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+}
+
+.graficos-section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.graficos-section .container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-items: center;
+}
+
